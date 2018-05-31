@@ -1,0 +1,4 @@
+    location /project/ {
+        try_files $uri $uri/ /project/index.php?/$request_uri;
+    }
+	
